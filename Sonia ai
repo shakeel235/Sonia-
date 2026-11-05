@@ -1,0 +1,27 @@
+app/
+gradle/
+.github/
+build.gradle
+settings.gradle
+gradlew
+gradlew.bat
+gradle.properties
+unzip Myra-Android-buildable.zip -d myra-android
+cd myra-android
+
+git init
+git branch -M main
+git add .
+git commit -m "Add Myra Android project"
+git remote add origin https://github.com/YOUR_USERNAME/myra-android.git
+git push -u origin main
+Myra-Android-buildable/Myra/app/
+.github/workflows/build.yml
+GEMINI_API_KEY
+app-debug.apk
+app-release.apk
+main
+master
+git add .
+git commit -m "Update Myra"
+git push
